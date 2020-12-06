@@ -17,6 +17,7 @@ export const WindowComp = (props) => {
                                     dispatch(updatePreviewer(e.target.value))
                                     }
                                 }
+                            placeholder='Insert HTML markup'
                         />
                     :   <div                                                            
                             dangerouslySetInnerHTML={{__html: inputText}}
